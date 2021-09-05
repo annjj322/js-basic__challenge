@@ -1,0 +1,90 @@
+
+#quote {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    color: white;
+}
+
+.clock {
+    font-size: 90px;
+    margin-top: 100px;
+}
+
+.text-type {
+    border-style: none none solid none;
+    background: none;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+.todo-input {
+    width: 700px;
+}
+
+.greeting {
+    font-size: 50px;
+}
+
+.todo-list {
+    font-size: 30px;
+}
+
+.login-form {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    width: 700px;
+    overflow: auto;
+}
+
+.city {
+    margin-right: 10px;
+}
+
+#quote {
+    position: absolute;
+    bottom: 40px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weather {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 20px;
+}
+
+.text-submit {
+    background: none;
+    color: white;
+    width: 90px;
+    height: 60px;
+}
+
+.hidden {
+    display: none;
+}
